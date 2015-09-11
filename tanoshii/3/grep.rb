@@ -4,6 +4,6 @@ def simple_grep(pattern, filename)
     if pattern =~ line
       print line
     end
-    file.close
   end
+  file.close
 end
