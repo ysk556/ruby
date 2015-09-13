@@ -1,5 +1,6 @@
 require "nokogiri"
 require "open-uri"
+require "kconv"
 
 url = "http://b.hatena.ne.jp/"
 charset = nil
